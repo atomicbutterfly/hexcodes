@@ -5,6 +5,7 @@
   "scripts": {
     "start": "eleventy --serve",
     "build": "NODE_ENV=production eleventy"
+    "build-ghpages": "npx @11ty/eleventy --pathprefix=/hexcodes/"
   },
   "dependencies": {
     "@11ty/eleventy-plugin-rss": "^2.0.2",
